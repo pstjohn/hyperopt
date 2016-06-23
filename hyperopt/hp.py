@@ -9,6 +9,7 @@ from pyll_utils import hp_pchoice as pchoice
 
 from pyll_utils import hp_uniform as uniform
 from pyll_utils import hp_quniform as quniform
+from pyll_utils import hp_quniform_int as quniform_int
 from pyll_utils import hp_loguniform as loguniform
 from pyll_utils import hp_qloguniform as qloguniform
 
