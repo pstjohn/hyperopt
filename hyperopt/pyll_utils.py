@@ -75,6 +75,13 @@ def hp_quniform(label, *args, **kwargs):
 
 
 @validate_label
+def hp_quniform_int(label, *args, **kwargs):
+    return scope.int(
+            scope.hyperopt_param(label,
+                scope.quniform(*args, **kwargs)))
+
+
+@validate_label
 def hp_loguniform(label, *args, **kwargs):
     return scope.float(
             scope.hyperopt_param(label,
